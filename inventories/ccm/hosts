@@ -1,0 +1,14 @@
+### INI file format
+
+[insset]
+10.3.134.11[0:9] ansible_connection=local
+ 
+[master]
+10.3.134.110 ansible_connection=local
+ 
+[students]
+10.3.134.111 ansible_connection=local
+10.3.134.112 ansible_connection=local
+10.3.134.113 ansible_connection=local
+10.3.134.11[4:9] ansible_connection=local
+

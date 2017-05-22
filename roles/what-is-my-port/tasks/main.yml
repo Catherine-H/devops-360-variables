@@ -1,0 +1,8 @@
+---
+# tasks file for what-is-my-port
+#
+
+- name: Show the value of what_is_my_port
+  debug:
+    msg: "what_is_my_port is set to: {{ what_is_my_port }}"
+
